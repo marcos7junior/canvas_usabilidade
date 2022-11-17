@@ -20,14 +20,13 @@
     <link href="blog.css" rel="stylesheet">
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./assets/css/style.css">
     
+    <!-- css local -->
+    <link rel="stylesheet" href="./assets/css/style.css">
   </head>
 
   <body>
   
-    
-
     <div class="container">
       <header class="blog-header py-3">
         <div class="row flex-nowrap justify-content-between align-items-center">
@@ -59,40 +58,31 @@
         </div>
       </div>
 
-      <div class="row mb-2">
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-primary">World</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="#">Featured post</a>
-              </h3>
-              <div class="mb-1 text-muted">Nov 12</div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#">Continue reading</a>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+
+    <main role="main" class="container">
+      <h1 class="text-center display-1" style="margin: 100px">EXEMPLO DE CANVAS DE USABILIDADE</h1>
+      <img class="rounded mx-auto d-block" src="./assets/img/canvas.png" alt="canvas">
+
+      <h2 class="text-center display-2" style="margin: 50px">ESTUDOS DE CASO</h2>
+      <div class="cards">
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" style="width: 5rem" src="./assets/img/olx.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Olx</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="card flex-md-row mb-4 box-shadow h-md-250">
-            <div class="card-body d-flex flex-column align-items-start">
-              <strong class="d-inline-block mb-2 text-success">Design</strong>
-              <h3 class="mb-0">
-                <a class="text-dark" href="#">Post title</a>
-              </h3>
-              <div class="mb-1 text-muted">Nov 11</div>
-              <p class="card-text mb-auto">This is a wider card with supporting text below as a natural lead-in to additional content.</p>
-              <a href="#">Continue reading</a>
-            </div>
-            <img class="card-img-right flex-auto d-none d-md-block" data-src="holder.js/200x250?theme=thumb" alt="Card image cap">
+
+        <div class="card" style="width: 18rem;">
+          <img class="card-img-top" style="width: 5rem" src="./assets/img/olx.jpg" alt="Card image cap">
+          <div class="card-body">
+            <h5 class="card-title">Olx</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
           </div>
         </div>
       </div>
-    </div>
-
-    <main role="main" class="container">
-      
 
     </main><!-- /.container -->
 
