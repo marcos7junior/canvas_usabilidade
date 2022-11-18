@@ -2,12 +2,11 @@
   include "config.php";
     if (isset($_POST['submit'])) {
       $email = $_POST['email'];
-      $sql = "INSERT INTO email(email) VALUES ('$email')";
-      // $sql = "SELECT * FROM tb_contato";
+      $sql = "INSERT INTO `contato`(`email`) VALUES ('$email')";
       $result = $conn->query($sql);
 
       if ($result == TRUE) {
-        echo "Novo email cadastrado.";
+        echo "Novo email `$email` cadastrado.";
       }else{
         echo "Error:". $sql . "<br>". $conn->error;
       } 
@@ -46,6 +45,7 @@
     <?php include 'whatsapp_btn.php'; ?>
     <?php include 'header.php'; ?>
     <?php include 'main.php'; ?>
+    <?php include 'emails.php'; ?>
     <?php include 'section.php'; ?>
 
     <!-- Bootstrap core JavaScript

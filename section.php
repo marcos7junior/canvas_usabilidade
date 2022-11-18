@@ -6,9 +6,9 @@
               <h2>INSCREVA-SE NA NOSSA NEWSLETTER</h2>
               <form action="" method="POST">
                 <div class="input-group">
-                  <input type="email" name="email" class="form-control" placeholder="Insira seu e-mail">
+                  <input type="email" name="email" class="form-control" placeholder="Insira seu e-mail" required>
                   <span class="input-group-btn">
-                    <button class="btn" type="submit">Inscreva-se agora!</button>
+                    <input class="btn" type="submit" name="submit"></button>
                   </span>
                 </div>
               </form>
