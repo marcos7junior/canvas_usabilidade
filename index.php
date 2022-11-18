@@ -1,3 +1,19 @@
+<?php
+  include "config.php";
+    if (isset($_POST['submit'])) {
+      $email = $_POST['email'];
+      $sql = "INSERT INTO email(email) VALUES ('$email')";
+      // $sql = "SELECT * FROM tb_contato";
+      $result = $conn->query($sql);
+
+      if ($result == TRUE) {
+        echo "Novo email cadastrado.";
+      }else{
+        echo "Error:". $sql . "<br>". $conn->error;
+      } 
+      $conn->close(); 
+    }
+?>
 
 <!doctype html>
 <html lang="en">

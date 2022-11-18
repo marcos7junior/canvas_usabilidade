@@ -4,12 +4,14 @@
           <div class="col-sm-12">
             <div class="content">
               <h2>INSCREVA-SE NA NOSSA NEWSLETTER</h2>
-            <div class="input-group">
-              <input type="email" class="form-control" placeholder="Insira seu e-mail">
-              <span class="input-group-btn">
-              <button class="btn" type="submit">Inscreva-se agora!</button>
-              </span>
-            </div>
+              <form action="" method="POST">
+                <div class="input-group">
+                  <input type="email" name="email" class="form-control" placeholder="Insira seu e-mail">
+                  <span class="input-group-btn">
+                    <button class="btn" type="submit">Inscreva-se agora!</button>
+                  </span>
+                </div>
+              </form>
           </div>
           </div>
         </div>
