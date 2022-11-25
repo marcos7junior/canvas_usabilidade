@@ -7,12 +7,12 @@
 ?>
 
 <div class="container">
-<h2>users</h2>
+<h2>USUÁRIOS CADASTRADOS</h2>
     <table class="table">
         <thead>
             <tr>
 
-            <th>Email</th>
+            <th>E-mails</th>
 
             </tr>
         </thead>
