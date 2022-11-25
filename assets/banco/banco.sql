@@ -5,5 +5,8 @@ create table contato (
 	email varchar(200) not null
 );
 
+alter table contato add id int auto_increment primary key;
+alter table contato add nome varchar(45) not null;
+
  -- rodar apenas para conferir --
-select * from contato;
+select contato.id, contato.nome, contato.email from contato;
