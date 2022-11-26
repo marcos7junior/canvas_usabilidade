@@ -23,6 +23,11 @@
   z-index:100;
 }
 
+.botao_cadastro {
+  width: 200px;
+  margin: 5px;
+}
+
 .my-float{
 	margin-top:16px;
 }

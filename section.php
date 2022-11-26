@@ -19,7 +19,7 @@
 </section>
 
 <footer class="blog-footer" style="margin-top: 200px">
-    <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
+    <!-- <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p> -->
     <p>
     Voltar ao topo:
     <a href="#">
